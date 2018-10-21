@@ -54,7 +54,7 @@ p
     font-weight: bold;
     font-size: 120%;
 }
-@media (max-width:600px)
+@media screen and (max-width: 900px)
     {content
         {margin-left: 5%;
         margin-right: 5%;
