@@ -54,8 +54,8 @@ p
     font-weight: bold;
     font-size: 120%;
 }
-@media screen and (max-width: 900px)
-    {content
+@media screen and (max-width: 900px){
+    #content
         {margin-left: 5%;
         margin-right: 5%;
         }
