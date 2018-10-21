@@ -21,7 +21,7 @@
 				This survey is Completely Anonymous :)
 			</p>
 			<div id="content">
-				<form id="survey-form" action="/survey.php" method="get">
+				<form id="survey-form" action="/action_page.php" method="get">
 					<input id="name" type="text" name="username" maxlength="20" placeholder="Nickname" required /><label id="name-label">NickName</label>
 					<input id="email" type="email" name="email" placeholder="email" required/><label id="email-label">email</label>
 					<br />
@@ -107,7 +107,10 @@
 						<input type="checkbox" name="veg" value="olives" />Olives
 						<input type="checkbox" name="veg" value="cucumber" />Cucumber
 						<input type="checkbox" name="veg" value="brocules" />Brocules
-					<p>Select your favorite type of meat (Press and Hold ,,Ctrl'' to select more then one)</p>
+					<p>Select your favorite type of meat
+						<br />
+						  (Press and Hold ,,Ctrl'' to select more then one)
+					</p>
 						<select id="dropdown" name="favorite" multiple>
 							<option>Beef</option>
 							<option>Chicken</option>
