@@ -1,0 +1,50 @@
+body
+{
+    background-color: rgb(178, 185, 178);
+}
+#title
+{
+    text-align: center;
+    padding-top: 25px; 
+}
+#description
+{
+    background-color: white;
+    font-size: 26px;
+    text-align: center;
+}
+#container
+{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    background-image: url("http://dailyhdwallpaper.com/wp-content/uploads/Healthy-Food-Fruits-Vegetables-Wallpaper-1-1280x1024.jpg");
+  
+}
+#content
+{
+    border: 5px solid rgb(124, 189, 111);
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+    opacity: 0.99;
+    font-size: 20px;
+}
+#email, #email-label
+{
+    display: none;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    font-size: 12px
+}
+p
+{
+    border-top: 2px solid rgb(124, 189, 111);
+    border-bottom: 2px solid rgb(124, 189, 111);
+    font-weight: bold;
+}
